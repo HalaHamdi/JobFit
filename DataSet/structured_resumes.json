@@ -1,0 +1,182 @@
+{
+    "DataScience-1": {
+        "education": "PhD, Electrical and Computer Engineering: Data Science, XYZ University (September 2018- December 2023), MS, Electrical and Computer Engineering, XY University (September 2016- June 2018), BS, Electrical and Computer Engineering, XY University (September 2012 \u2014 June 2016)",
+        "skills": "Programming: Python (Pandas, Matplotlib, Scikit-Learn, Keras, SciPy, TensorFlow), R, SQL, Git, HTML/CSS, Visualization: Tableau, Microsoft Excel, Google Sheets, Machine Learning: Classification, Regression, Topic Modeling, Natural Language Processing (NLP), Neural Networks",
+        "experience": "Business Analyst Intern (June 2022-August 2022) ABC Department, XYZ University, Research Scientist (September 2020 \u2014 Present) XYZ University, Machine Learning Firmware Engineering Intern {June 2019-September 2019) Big Tech Company",
+        "courses": null
+    },
+    "DataScience-2": {
+        "education": "Bachelor's degree in Computer Science, XYZ University",
+        "skills": "Python, Matlab, Git, Data Analysis, Data Mining, Machine Learning, C44, Latex, Java, Scala, HTML, Hadoop, SQL",
+        "experience": "Volunteer Data Scientist at ABC Corporation (January 2015 - May 2015), Data Scientist at ABC Corporation (2010 - 2015)",
+        "courses": "Completed courses in Artificial Neural Networks, Classification Models, and Mobile User Demographics Classification"
+    },
+    "DataScience-3": {
+        "education": "BS in Statistics, Syracuse University, 2008. Completed all 10 required courses in Data Science (120 hours) for the Microsoft Professional Program for Data Science.",
+        "skills": "R Studio, Python, PERL, NoSQL, Hadoop, VB, Cloudera. Machine Learning, Data Visualization, Modeling, Statistics.",
+        "experience": "Data Scientist at 712 Exend Capital Inc. from 2013-10. Junior Data Scientist at e Supracy Real Estate Inc. from 2012:08-2017.12. Freelance Data Scientist from 2012.06-2017.12.",
+        "courses": "Completed a senior project at Syracuse University to predict waitress tips in a busy Boston restaurant using decision trees, regression models, and SVM. Microsoft Professional Program Certificate in Data Science. GCP - Google Certified Professional Data Engineer. Attended the 2016 AAAI Conference on Artificial Intelligence."
+    },
+    "DataScience-4": {
+        "education": "BSC (CA) FROM UNIVERSITY OF HYDERABAD, 2019",
+        "skills": "Machine Learning, Natural Language Processing, Artificial Intelligence, Pattern Recognition, Neural Networks, RNN, LSTM, Data Science, Deep Learning, Python, NLP, Artificial Neural Networks, Keras, Tensorflow, Object Detection",
+        "experience": "LTTDIGITAL SERVICES, JUNIOR SDE, FEB 2019 - TILL DATE, PROJECTS: Understanding text models and using them to create chatbot, NLP using AWS, Computer Vision on AWS",
+        "courses": "CERTIFICATE ON DATA ANALYSIS"
+    },
+    "DataScience-5": {
+        "education": "B.Tech Sl Thala Model college Orissa, 2020",
+        "skills": "Machine Learning, Natural Language Processing, Deep Learning, Business Analysis, Python, Numpy, Pandas, Scikit Learn, Tensorflow, Keras, PySpark",
+        "experience": "SaiKo Computation, Data Processing Junior Intern, May 2019-August 2019, Create satisfaction ratio prediction models from customer data.",
+        "courses": "Machine Learning Crash Course from ML Artistry."
+    },
+    "Devops-1": {
+        "education": "B.S. Computer Science A, UC Berkeley, 2012-2016",
+        "skills": "Java, JS, Python, databases, cloud services, Docker, Kubernetes",
+        "experience": "Junior DevOps Engineer, Dufour, 2019-Ongoing",
+        "courses": "AWS Cloud Practitioner, Introduction to Information Security, DevOps Culture and Mindset, Scientific Computing with Python"
+    },
+    "Devops-2": {
+        "education": "University of Washington - B.S., Computer Science",
+        "skills": "Kubernetes; Docker; PHP; Laravel; Python; Perl; Azure; AWS; Puppet, Chef, Ansible; SQL and NoSQL",
+        "experience": "Ippon Technologies USA - Kubernetes DevOps Engineer, OneTrust - DevOps Engineer Intern",
+        "courses": "Amazon Web Services (AWS) Certified Solutions Architect - Associate, Certified Kubernetes Administrator (CKA)"
+    },
+    "Devops-3": {
+        "education": "BS in Computer Science, University of Michigan",
+        "skills": "DevOps Manager, Frostacre Global, Led Agile team of 5 developers, 2 SysAdmins to continuous deployment of Saas real estate solution with 1 million+ users. Collaborated with C-Suite and sales teams. Maintained network of 30+ Unix servers with 99.9% up-time. Wrote scripts to automate security upgrades. Cut vulnerabilities by 20%. DevOps Engineer, Shellnac Systems, Inc., Set up and managed 40 Linux servers with 99.95% up-time. Managed continuous deployment of a popular Saas stock-tracking tool. Deployed 2 software iterations per month for 2 years. Increased customer satisfaction with software by 25%. Presided over a period of 30% revenue growth. System Administrator, Litman Analytics, Set up and managed 15 Windows 2008 servers. Wrote scripts to automatically update system components. Cut company costs 20% through aggressive vendor management.",
+        "experience": "DevOps Manager, Frostacre Global, 2015-07 - 2018-08, Led Agile team of 5 developers, 2 SysAdmins to continuous deployment of Saas real estate solution with 1 million+ users. Collaborated with C-Suite and sales teams. Maintained network of 30+ Unix servers with 99.9% up-time. Wrote scripts to automate security upgrades. Cut vulnerabilities by 20%. DevOps Engineer, Shellnac Systems, Inc., 2013-05 - 2015-06, Set up and managed 40 Linux servers with 99.95% up-time. Managed continuous deployment of a popular Saas stock-tracking tool. Deployed 2 software iterations per month for 2 years. Increased customer satisfaction with software by 25%. Presided over a period of 30% revenue growth. System Administrator, Litman Analytics, 2012-06 - 2013-05, Set up and managed 15 Windows 2008 servers. Wrote scripts to automatically update system components. Cut company costs 20% through aggressive vendor management.",
+        "courses": "President, 314 Action STEM Organization."
+    },
+    "Devops-4": {
+        "education": "Bachelor of Science in Computer Engineering with a focus on DevOps at Oklahoma State University, Stillwater, OK Sep 2017 - May 2021 Relevant Coursework: Software Engineering, Computer Networks, Operating Systems, Cloud Computing, Distributed Systems, Web Development, Cybersecurity, Data Structures, Algorithms, Database Management, and Agile Methodologies.",
+        "skills": "Continuous integration and deployment, automation tools, cloud technologies, collaboration, process improvement, innovation, Jenkins, Docker, Selenium, ELK stack",
+        "experience": "DevOps Engineer at DevOpsGroup, OK Feb 2023 - Present Reduced deployment time by 50%: Implemented a new CI/CD pipeline using Jenkins and Docker, which streamlined the deployment process and significantly reduced deployment time from 2 hours to 1 hour. Increased system uptime to 99.9%: Collaborated with the development and operations teams to identify and resolve bottlenecks in the infrastructure, ultimately improving system uptime by 0.5% over a 6-month period. Optimized cloud infrastructure costs by 30%: Conducted a thorough analysis of cloud resource usage and suggested several optimizations, such as using auto-scaling groups and reserved instances, resulting in a30% cost reduction for the company. Enhanced code quality and reduced error rates by 40%: Introduced automated testing and monitoring tools, such as Selenium and ELK stack, which led to better code quality and a significant reduction in the number of production errors. Junior DevOps Engineer at Paycom, OK Aug 2021 - Dec 2022 Implemented a new CI/CD pipeline, reducing deployment times by 35% and increasing development team efficiency by 20%. Optimized cloud infrastructure, resulting in a 25% reduction in monthly costs and improving system performance by 15%. Automated manual processes for system monitoring and maintenance, leading to a 50% reduction in downtime and a 30% increase in overall system reliability. Collaborated on a team project to migrate legacy applications to a containerized environment, reducing deployment complexity by 40% and improving scalability by 50%.",
+        "courses": "Software Engineering, Computer Networks, Operating Systems, Cloud Computing, Distributed Systems, Web Development, Cybersecurity, Data Structures, Algorithms, Database Management, and Agile Methodologies."
+    },
+    "Devops-5": {
+        "education": "Bachelor of Science in Computer Science, XYZ University",
+        "skills": "Azure, DevOps, Cloud Native Technologies, Infrastructure Automation, Coaching, Guiding, Leading Change, Problem Solving, Jenkins, GitLab, Terraform, Ansible, Kubernetes, Prometheus, Elasticsearch, Grafana, Java, Python",
+        "experience": "Senior Azure DevOps Engineer at ABC Consulting (2019-2022), DevOps Engineer at XYZ Healthcare (2017-2018)",
+        "courses": "Certified Kubernetes Administrator, Certified Jenkins Engineer, Certified Azure DevOps Engineer"
+    },
+    "Frontend-1": {
+        "education": "University of Sydney, Bachelor of Science in Computer Science, 2011-2014",
+        "skills": "JavaScript, React, Vue, Angular, TypeScript, HTML5, CSS3, UI/UX design, frontend development, JavaScript frameworks, Agile methodologies, responsive design, cross-browser compatibility, version control systems",
+        "experience": "ABC Corp, Senior Frontend Developer, 2019-2022; XYZ Inc, Frontend Developer, 2017-2019; 123 Co, Web Developer, 2015-2017",
+        "courses": "None listed"
+    },
+    "Frontend-2": {
+        "education": "Bachelor of Science in Computer Science, University of Oregon, 2014-2018",
+        "skills": "HTML, CSS, JavaScript, Python, React, jQuery, Redux, Angular.js, Node.js, Jest, Mocha",
+        "experience": "Front-End Developer at HubSpot (May 2020 - June 2021), Software Engineer I at Zillow (July 2018 - March 2020)",
+        "courses": null
+    },
+    "Frontend-3": {
+        "education": "Rutgers University-Bachelor of Science,Computer Science",
+        "skills": "HTML;CSS;JavaScript;React;jQuery;Angular.js;Vue.js;Enyzme;Jest;GIT;AWS;MaterialUI;Kanban;Agile;Scrum;",
+        "experience": "GitHub -Senior Front-End Developer January 2017 - current New York, NY Led development team of 5 persons to create GitHub pages, which allows all new and existing customers to have their repositories hosted. Implemented AWS to allow easy iteration in company cloud infrastructure. Created new documentation for MaterialUI that prevented the need for a 3-week onboarding course. Mentored 8 new junior front-end developers on team in expanding JavaScript, React, and Angular skillset. Worked with PM/IM to keep on track with the project plan, timeline, and billing. On average, this saved 4 days of communication per project. Led bi-weekly stand-up to ensure team worked effectively, using coaching strategies to increase efficiency by 10%. Worked with Quality Assurance to get new pages/products tested, and addressed any issues within 48 hours. DTX -Front-End Developer September 2012 - Jan 2017 New York, NY Participated in the initial wave of developers learning and implementing the React.JS library. Rewrote HTML to meet industry and company standards for SEO and Accessibility. This drove a 600% increase in users by appearing on the first page of Google search results. Tested, debugged, and shipped 10s of 1000s of lines of code to various development teams. This lead to 100% bug-free deployment. Introduced Kanban Board style ticketing system to promote highly efficient asynchronous and synchronous work, increasing efficiency by 12%. Utilized HTML, CSS, and JavaScript to create 100+ responsive landing pages for both company and client. Maintained graphic standards and branding throughout the product's interfaces.",
+        "courses": null
+    },
+    "Frontend-4": {
+        "education": "Bachelor of Science, Computer Science, University of the Pacific, September 2011 - June 2015",
+        "skills": "HTML, CSS, JavaScript, React.js",
+        "experience": "Mid-Level Front-End Developer, Gametime, January 2019 - current, Remote; Front-End Developer, Kaiser Permanente, August 2017 - January 2019, Walnut Creek, CA; Junior Front-End Developer, PLACE, June 2015 - August 2017, Remote",
+        "courses": "AWS Certified Developer - Associate"
+    },
+    "Frontend-5": {
+        "education": "Bachelor of Science, Computer Engineering, Cal State Hayward, September 2015 - June 2019, Hayward, CA, GPA: 3.7",
+        "skills": "HTML, CSS, JavaScript, React.js, Node.js, Angular.js, WordPress, Bootstrap, NoSQL, Agile/Scrum",
+        "experience": "Entry-level Front-End Developer, Guess, INC, September 2019 - current/Remote, Maintained 20+ web pages, graphics, and online marketing materials under direction of UX manager and development team. Created and maintained front-end code for 40+ e-Commerce websites (re-designs, seasonal updates, production work). Produced and assisted in the deployment of 6 online marketing initiatives, including banner advertisements. Identified and implemented dynamic web solutions in accordance to company standards and best practices. Assisted the development team in developing 6 WordPress sites with testing, deployment, and updates. Led troubleshooting, fixed 1,000+ bugs and other issues, and updated sites throughout production lifecycle. Front-End Developer Intern, Punch, June 2019 - September 2019/Daly City, CA, Assisted the development team in maintaining 8 websites. Implemented front-end technical solutions to meet project requirements for creation of 5 new web pages. Ensured 6 unique projects complied with correct technology processes, industry best practices, and company standards. Conducted research and assisted with new business scoping efforts, resulting in the acquisition of 4 clients. Partnered with 2 designer teams to take client wireframes from conception to implementation. Worked in an Agile, collaborative environment to receive design requirements, peer program, and test applications.",
+        "courses": "AWS"
+    },
+    "JavaDeveloper-1": {
+        "education": "Bachelor of Science in Software Engineering with a focus on Java Development at Virginia Tech, Blacksburg, Sep 2017 - May 2022",
+        "skills": "Spring Framework, Hibernate ORM, JavaServer Faces (JSF), Apache Struts, JavaFX",
+        "experience": "Java Software Developer at Cognizant Technology Solutions, VA, Feb 2023 - Present; Associate Java Software Developer at Leidos, VA, Sep 2022 - Jan 2023",
+        "courses": "Java Programming, Object-Oriented Design, Data Structures, Algorithms, Web Development, Database Systems, Software Engineering Principles, Java-based frameworks (Spring and Hibernate)"
+    },
+    "JavaDeveloper-2": {
+        "education": "University of Texas, Dallas, TX Bachelor of Science in Computer Science, May 2011 Honors: cum laude (GPA: 3.6/4.0)",
+        "skills": "Languages: Java, JavaScript, Java Beans, JSP, SQL. HTML. XML, Node js, Bootstrap Frameworks: JSF, J2EE, Apache Struts API's: Servlets, EJB, Java Naming and Directory Interface (JNDI) Software: Eclipse, Toad, Works, NetBeans Databases: IBM DB2, Oracle, MySQL. Database SQL command",
+        "experience": "IT AMERICA INC., Arizona City, AZ Java Developer, September 2015 \u2014 Present \u00bb Use Java/J2EE technologies to develop web applications for client server environments and add functionalities to existing applications. \u00ab Revamp various Java applications developed with Spring, Hibemate and older J2EE. \u00bb Conduct user requirements analysis to design and program applications and deliver support for system enhancement. \u00bb Play a pivotal role as a part of an agile scrum team accountable, developing new applications using Spring framework backend and Angular js frontend. \u00bb Consult with customers on project status and technical concerns. INFOSYS, Charlotte, NC Java Developer, June 2011 \u2014 August 2015 \u00bb Rendered solid technical expertise in Software Development Life Cycle and core Java technologies to develop applications based on specific client requirements. \u00bb Developed highly mteractive and customized Uls using JavaScript, HTML, JSP, and CSS to improve functionality of web applications. \u00bb Performed unit testing of applications by developing and applying test cases in JUnit. \u00bb Enhanced the quality of code and improved application performance, leading to a 14% reduction in bugs. \u00bb Created interactive Uls that surpassed client objectives and improved user experience.",
+        "courses": null
+    },
+    "JavaDeveloper-3": {
+        "education": null,
+        "skills": "Java, J2EE, RESTful web services, Agile methodologies, JIRA, WIKI, Bitbucket, C#, Design Patterns, SQL, PL/SQL, Azure",
+        "experience": "Senior Java Developer 2022 - Ongoing, Tech Solutions Inc New York, NY | Lead Java Developer 2017 - 2022, gies San Francisco, CA | Software Engineer 2015 - 2017, Digital Solutions Ltd Boston, MA",
+        "courses": null
+    },
+    "JavaDeveloper-4": {
+        "education": "Bachelor of Science in Software Engineering with a focus on Java Development at Georgia Institute of Technology, Atlanta, GA",
+        "skills": "Spring Framework, Hibernate ORM, JUnit Testing, Maven Build, JavaServer Faces (JSF), Apache Struts, Java Persistence API (JPA), Java, SQL, JavaScript, HTML/CSS",
+        "experience": "Senior Java Developer at TechBridge, GA, Feb 2023 - Present, Developed a high-traffic e-commerce platform for a major retail client, resulting in a 20% increase in online sales and supporting over 1 million daily users. Successfully led a team of 5 Java developers to redesign and optimize a large-scale financial application, reducing processing time by 40% and cutting server costs by 30%. Implemented an innovative machine learning algorithm for a healthcare client's patient data management system, improving diagnostic accuracy by 25% and significantly enhancing patient outcomes. Junior Java Developer at SolTech, GA, Sep 2022 - Jan 2023, Developed and successfully deployed a high-performance web application for a major client, resulting in a 25% increase in user engagement and a 40% reduction in page load time. Implemented an optimized database query system that reduced query response time by 50%, significantly improving the overall performance of the company's internal management software. Collaborated with a team of 5 developers to create a robust and scalable Java-based API, which increased the efficiency of data sharing between applications by 35%. Led a project to refactor and modernize legacy code, resulting in a 30% improvement in maintainability and a 20% reduction in reported bugs.",
+        "courses": "Oracle Certified Professional: Java SE Programmer, Spring Professional Certification, Nov 2020"
+    },
+    "JavaDeveloper-5": {
+        "education": "Java Developer, Senior Java Developer, Java/.Net Developer, Software Developer",
+        "skills": "High-Performance, high-availability, high-throughput systems, problem-solving, database design, prepaid systems, GrayLog, Hashicorp Vault, J2EE, .Net, JavaEE, Java Servlet, JSP, Struts 2, JQuery, JQuery UI, Spring, Spring MVC, Maven, Hibernate, JDBC, SOAP, RESTful web services, Python, Continuous Integration Development, Relational Databases, Oracle, MySQL, data modeling, code analysis, SonarQube, version control, SVN, Git, Tomcat, Linux, Robot Test Framework, Agile, JIRA, Scrum, estimates, code review, documentation",
+        "experience": "Senior Java Developer at Bank of America, Senior Java/.Net Developer at Nextware Technologies, Java Developer at Trigent Software, Software Developer at HQSoftware",
+        "courses": "Angularjs, UnderscorejS, JavaScript OOP, JQuery, RequireJS, EJB, JBoss, Glassfish, Web Services, Socket Programming (NIO), JSP, GWT, JSF, JSON, css, JavaScript, Scrum, Team Work, Agile Methodologies, Java Design Patterns, Continuous Integration, Object-oriented Design"
+    },
+    "Testing-1": {
+        "education": "Bachelor of Science in Software Quality Assurance at North Dakota State University, Fargo, ND Sep 2017 - May 2022 Relevant Coursework: Software Engineering, Programming Languages, Data Structures, Algorithms, Operating Systems, Database Management, Computer Networks, Web Development, System Design, Quality Assurance and Testing, Project Management, and Agile Methodologies.",
+        "skills": "Appium, LoadRunner, Postman",
+        "experience": "QA Tester at QA Technologies Inc., ND Apr 2023 - Present Identified and reported over 500 software defects within a year, resulting in a 25% reduction in post-release issues for clients of QA Technologies Inc., ND. Streamlined testing processes by implementing automated testing tools, leading to a 40% decrease in manual testing efforts and a 15% increase in overall testing efficiency. Collaborated with cross-functional teams to improve product quality, which led to a 30% reduction in customer complaints and increased customer satisfaction ratings by 20%. Associate QA Tester at Onsharp Inc., ND Sep 2022 - Mar 2023 Successfully identified and reported over 150 critical software bugs within the first six months of employment, resulting in a 25% reduction in customer-reported issues and a 20% increase in overall product stability. Streamlined the QA testing process by creating and implementing a comprehensive test plan template, reducing the average time spent on test plan creation by 40% and increasing test coverage by 30%. Collaborated with a team of developers and QA testers to reduce the average bug-fix turnaround time from 72 hours to 48 hours, improving the overall efficiency of the development cycle by 33%. Played a key role in the successful launch of three major software releases by rigorously testing all features, ensuring a 99% defect-free product and contributing to a 15% increase in company revenue.",
+        "courses": "ISTQB Certified Tester Feb 2022 Certified Agile Tester (CAT) Mar 2020"
+    },
+    "Testing-2": {
+        "education": "AS IN COMPUTER SCIENCE, 6/2016 \u00ae XYZ TECHNICAL COLLEGE \u2014 Sometown, NJ",
+        "skills": "SQA Tools & Best Practices, Test Cases, Plans & Scripts, Defect & Bug Discovery, Technical Specification Analysis, System & Unit Testing, Tracking, Logging & Reporting, Acceptance Testing, Program Logic & Optimization, Regression Testing, Load Testing, Issue Identification, Software Architecture Technologies",
+        "experience": "ABC COMPANY \u2014 Sometown, NJ, JUNIOR QA TESTER, 6/2016 to Present, Perform system, unit, acceptance, regression, load and functional/performance testing on dozens of applications using both automated and manual testing methods. Validate, verify, communicate and resolve software issues through careful, thoroughly documented testing to maximize return on investment (ROI) for IT initiatives.",
+        "courses": "ICAgile Certified Professional (ICP), Certified Software Test Professional (CSTP)"
+    },
+    "Testing-3": {
+        "education": "B.Sc. in Computer Science Jun 12 - Jul'16, Stanford University SF,CA, GPA:40/50",
+        "skills": "Software Testing, Coding, Website Optimisation, Database Management, Documentation, Testing Tools & Technologies, Reporting, Web & Mobile Technologies, Analytical Skills, Issue Resolution",
+        "experience": "Software Testing Intern Jan'18 - Jun 18, Black Swan IT Solutions MP, CA, A leading IT company renowned for its social media platforms, generated a revenue of more than USD 85 billion in 2020, Collaborated with testing team of 8 engineers to perform operations on company's new software facilities, Filtered out general bugs and issues by using the latest testing methodologies on a weekly basis, Collaborated with a team of 5 interns under the guidance of the Project Manager to examine 5+ projects of the company, Database Management & Issue Resolution, Resolved bugs and issues in 10+ projects of the company under the mentorship of project manager, Managed database connectivity of 15+ applications focusing on improved security and smooth operations, Troubleshoot and debug 5 products to ensured their accuracy and stability for achieving organizational goals",
+        "courses": "ISTQB Foundation | ISTQB | Aug \u201817"
+    },
+    "Testing-4": {
+        "education": "Agile Certified Practitioner (PMI-ACP) | PMI | Feb 2016, JIRA Certified Associate | JIRA | Jun 2015, Bachelor of Science in Computer Science | University of Minnesota | Sep 2002 - Jun 2006, High School Diploma | Lincoln High School | Sep 1998 - Jun 2002",
+        "skills": "JIRA, Selenium, JUnit, TestNG, HP ALM, Postman, Git, Python, Java, Perl, C#, Jenkins, Maven, Docker, Kubernetes",
+        "experience": "Apr 2012 - Aug 2017 KeyTech, Fort Wayne, IN Test Engineer Conducted preliminary and post-development testing on a range of software products, including web and mobile applications and databases for a fast-growing cybersecurity software development company. Key Responsibilities Determined functional test cases for new or upgraded software applications Developed documentation to facilitate the UAT process Designed test scenarios, test cases and map test case requirements to allow technicians to conduct testing Conducted root cause analysis and recommended changes in procedures Isolated, replicated, and reported defects and verified defect fixes Executed and evaluated manual test cases and reported test results Developed, documented and maintained functional test cases and other test artifacts, including test data, data validation, and harness scripts Key Achievements Reduced time to market for new features by 22% in 2015 by implementing an automated testing framework for mobile applications. Jul 2007 - Apr 2012 Swift Corporation, Minneapolis, MN Software Tester Completed end-to-end user testing of new and upgraded software and applications for a fast-growing e-commerce solutions company based in Minnesota. Key Responsibilities Designed and executed test plans, test cases, and test scripts using Spock Conducted regression testing and automated testing to ensure software quality Tracked defects in JIRA, working with development teams to resolve issues Collaborated with cross-functional teams, including developers, product owners, and business analysts, to ensure quality and timely delivery of the Product Development Life Cycle (PDLC) Jul 2006 - Jul 2007 Swift Corporation, Minneapolis, MN Software Analyst Intern",
+        "courses": "null"
+    },
+    "Testing-5": {
+        "education": "Associate of Applied Science in Quality Assurance Technology at SUNY Erie Community College, Buffalo, NY Aug 2017 - May 2022",
+        "skills": "Test case design, execution, and documentation, collaborating with cross-functional teams, analytical and problem-solving skills",
+        "experience": "Manual QA Tester at Techolution, NY Apr 2023 - Present Conducted extensive manual testing for a major client's web application, resulting in the identification and resolution of over 150 critical bugs, ensuring a seamless user experience upon launch. Collaborated closely with a team of developers and product managers to implement comprehensive test plans for three major projects, contributing to their on-time delivery and high customer satisfaction ratings. Streamlined the QA process by creating detailed test documentation, reducing the time spent on manual testing by 25% and increasing overall team efficiency. Trained and mentored four new QA team members, helping them quickly adapt to company processes and consistently meet performance expectations. Junior Manual QA Tester at Lorven Technologies, NY Jul 2022 - Feb 2023 Successfully identified and reported over 250 critical software bugs and issues within the first six months of employment, leading to a 30% improvement in overall product quality and stability. Streamlined the testing process by creating and implementing a comprehensive test plan and test case library, resulting in a 20% reduction in testing time and a 15% increase in defect detection rate. Collaborated with cross-functional teams to resolve over 100 high-priority defects within tight deadlines, contributing to timely product releases and a 10% increase in customer satisfaction ratings.",
+        "courses": "ISTQB Certified Tester Nov 2021, ASQ Certified Quality Engineer Jun 2020"
+    },
+    "UIUX-1": {
+        "education": "B.F.A. in Interior Design | Columbus College of Art & Design 2000 - 2004 Winner of the AUD Student Portfolio Award in 2002",
+        "skills": "AutoCAD || J1Y Adobe Suite || Sketching || Architectural detailing || On-site consultation | Communication skills || Creative thinking || Deadline-driven || Customer service || Problem-solving",
+        "experience": "2015-Present Interior Designer | COSI Design House \u00ab Delivered functional and aesthetically pleasing designs for both commercial and residential clients. \u00ab Two-time winner of the Designer Magazine interior design award. 2005-2010 Founder & Interior Designer | Johnny's Design Place \u00ab Collaborated with known design companies such as X, Y, and Z. \u00ab Designed the State House Dining Hall, a government-owned property that greets 45,000 visitors in a month.",
+        "courses": null
+    },
+    "UIUX-2": {
+        "education": "Rochester Institute of Technology, Master of Science in Human Computer Interaction, Expected graduation 05/2021, Virginia Polytechnic Institute And State University, Bachelor of Science in Industrial Design, Graduated: 07/2017",
+        "skills": "Product design, Design leadership, Digital media design, Experience design, Interface Design, Contextual Research, Figma, Sketch, Adobe creative suite, JRA, Abstract, Zeplin, Invision",
+        "experience": "UX/UI DESIGNER, NVIDIA, Internship, Remote, California, 08/2020 to 10/2020, Utilized NVIDIA's Deep Learning and VA (Intelligent Video Analytics) Technology to improve the lives of small business owners, Fostered collaboration and consistency across teams by working closely with product managers, designers, and engineers, In less than 4 months, designed elegant flows and interactions for mobile platform partnered with hardware systems, UX/VISUAL DESIGNER, Disney Direct To Consumer And International, Internship, Glendale, CA, 06/2020 to 08/2020, Design useful and elegant digital experiences across 2 different mobile platforms; Marvel and National Geographic, Collaborate with other designers to maintain design consistency and coherence across features on 4 Disney products, Personally built relationships and encouraged collaboration across teams to improve Disney products, UX DESIGNER, Intuit, Co-op, San Diego, CA, 01/2020 to 05/2020, Design and launch multi-platform desktop community homepage focused on tax professionals across the country, Partnered with Research team and 40+ Domain experts to find opportunities and integrate user insights into product strategy and design, 12%-16% engagement rate growth amongst Domain experts within the platform., as a result of analyzing feedback and conducting expert roundtables/presentations",
+        "courses": null
+    },
+    "UIUX-3": {
+        "education": "2011 H MACQUARIE % University, Macquarie University, Sydney, Australia, BB D T e",
+        "skills": "Adobe Suite, Graphic Design, Book Design, Cover Design, Logo Design, After Effects, Animation, Banner Design, Web Design, Infographics, Presentation Design, Video Editing",
+        "experience": "May 2017 - Present, Brandcraft, Sydney, Australia, BrandCraft, Senior Graphic Design Professional, Design and management of print and digital projects, Assign projects to meet department objectives, Design of banner ads and web graphics, Design of charts and infographics; June 2015 - Jan 2017, Chello, Sydney, Australia, Campaign concepts and ideas, Logo Design and Illustration, Team management; Apr 2012 - Apr 2015, April Ford, Maroochydore, Australia, AF, Logo Design, Brochure Design, Newsletter Design, Magazine Design, Product Animation, Social Media Videos, Website Design, Infographics, Presentation Design, Video Editing",
+        "courses": null
+    },
+    "UIUX-4": {
+        "education": "Arts & University of Arts, Economics, Business University of Arts, Economics",
+        "skills": "Adobe Photoshop 85%, Adobe lllustrator 80%, Figma Online 75%, MS Office 90%, Goel Diaw 00%",
+        "experience": "Social media @ Cygnific, Netherlands, Social media @ Cygnific, Netherlands",
+        "courses": null
+    },
+    "UIUX-5": {
+        "education": "University of Washington \u2014 Seattle, WA, Class of 2022, BDes in Visual Communication Design, BA in Comparative History of Ideas, Minor in Digital Arts and Experimental Media, UW Study Abroad \u2014 Lyon, France, September 2019, CHID Program: Art & Innovation",
+        "skills": "Illustrator, Basic HTML + CSS, Photoshop, Figma, InDesign, Sketch, Glyphs, Arduino, Motion, After Effects, Premiere Pro",
+        "experience": "Junior Designer \u2014 AIGA, UW Chapter, Oct 2020-Present, Responsible for ideating and execution of AIGA event graphics and professional communication assets. Graphic Designer \u2014 The Whole U at UW, Sept 2020-Present, Design print and digital marketing imagery promoting holistic wellness for the University's health initiatives. Visual Design Intern \u2014 Drifter Organics, June 2020-Sept 2020, Designed product packaging, created online campaigns, and worked on Ul development for web/mobile.",
+        "courses": "None mentioned"
+    }
+}
