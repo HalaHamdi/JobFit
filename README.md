@@ -5,5 +5,3 @@ A curated dataset was combined from several open source datasets to match the de
  * FrontEnd Developers Resumes [dataset](https://huggingface.co/datasets/LithiVR/Resumes/tree/main)
  * Data Scientist Resumes [dataset](https://www.kaggle.com/datasets/mukund23/a-perfect-fit/data)
  * Multi-Job Resumes [dataset](https://www.kaggle.com/datasets/youssefkhalil/resumes-images-datasets/data)
-
- The labeled dataset(https://huggingface.co/datasets/zoedc/resumes_fit_labeled_nosplit/viewer/default/train?f%5Blabel%5D%5Bvalue%5D=1&row=55)
