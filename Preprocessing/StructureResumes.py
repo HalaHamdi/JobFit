@@ -3,7 +3,8 @@ import os
 import re
 import json
 from tqdm import tqdm
-from langchain.llms import OpenAI
+from dotenv import load_dotenv
+from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_community.document_loaders import PyPDFLoader
@@ -114,6 +115,7 @@ def save_structured_resume(json_file_path, resume_name, structured_resume):
         
 def structure_resumes(directory_path,processed_file_path,json_file_path):
     
+    load_dotenv()
     openai.api_key =os.getenv("OPENAI_API_KEY")
     parser = PydanticOutputParser(pydantic_object=Resume)
     prompt = PromptTemplate(
@@ -147,7 +149,7 @@ def structure_resumes(directory_path,processed_file_path,json_file_path):
         try:
             # Call OpenAI's API to get the structured JSON output
             response = openai.Completion.create(
-            engine="gpt-3.5-turbo-instruct",  # or "gpt-4" depending on your access
+            engine="gpt-3.5-turbo-instruct",  
             prompt=final_prompt,
             max_tokens=1024,  # Adjust based on the expected length
             temperature=0.0

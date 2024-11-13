@@ -7,7 +7,6 @@ def cos_similar(a, b):
     b=np.array(b).reshape(1, -1)
     return cosine_similarity(a, b)[0][0]
 
-
 def precision(retrievals):
     '''
     retrievals: dict of job_name:top_k_ids
@@ -19,7 +18,6 @@ def precision(retrievals):
         relevant= sum([1 for candidate in candidates if candidate.startswith(job_name)])/k
         precision+=relevant
     return precision/len(retrievals)
-
 
 def hit_rate(retrievals):
     """

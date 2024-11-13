@@ -1,7 +1,15 @@
 import os
-from langchain_community.document_loaders import PyPDFLoader
+import sys
+import base64
 from styles import color_palette
+from langchain_community.document_loaders import PyPDFLoader
+from helpers import get_database, record_exists, match
+import sys
+import subprocess
 
+# subprocess.check_call([sys.executable, "-m", "pip", "install", "streamlit-pdf-viewer"])
+from streamlit_pdf_viewer import pdf_viewer
+from pdf2image import convert_from_bytes
 
 def resume_and_jd_uploader(st):
     # # Using tabs to split sections visually
@@ -23,7 +31,6 @@ def resume_and_jd_uploader(st):
 def match_resumes(st,uploaded_files,job_description):
     # Placeholder for matching logic
     if st.button('🔍Match Resumes'):
-        st.write(uploaded_files)
         if len(uploaded_files)==0 or job_description == "":
             st.error("Please upload resumes and enter a job description to match.")
             st.stop()
@@ -31,26 +38,44 @@ def match_resumes(st,uploaded_files,job_description):
         st.markdown("<h3 class='section-header'>Matched Resumes</h3>", unsafe_allow_html=True)
 
         # Placeholder code for the logic that matches resumes
-        dir='./tmp/'
-        for i,uploaded_file in enumerate(uploaded_files):  # Placeholder for the number of resumes selected in the sidebar
-            tmp_location = os.path.join(dir, uploaded_file.name)
+        matched_resumes=match(job_description,uploaded_files)
+        
+         # Store matched resumes in session state to keep them across interactions
+        if matched_resumes:
+            st.session_state.matched_resumes = matched_resumes
+        else:
+            st.session_state.matched_resumes = []
+        
+def display_matched_resumes(st):
+    # Display matched resumes from session state
+    if "matched_resumes" in st.session_state and st.session_state.matched_resumes:
+        # Create a row for each matched resume
+        for resume, score in st.session_state.matched_resumes:
+            # Create two columns: one for the file name and one for the download button
+            col1, col2 = st.columns([3, 1])  # First column for the name, second for the download button
 
-            # if the path does not exist, create the directory and save the file
-            if not os.path.exists(dir):
-                os.makedirs(dir)
-            with open(tmp_location, 'wb') as file:
-                file.write(uploaded_file.getbuffer())
-                
-            st.write(tmp_location)
-            loader = PyPDFLoader(tmp_location)
-            pages = loader.load_and_split()
-            
-            # delete the file after processing
-            os.remove(tmp_location) 
-            
-            st.markdown(f"<div class='card'>🏆 Matched Resume {i}</div>", unsafe_allow_html=True)
-            st.write(f"page 1: {pages[0]}...")  # Replace with actual matched resume text
+            with col1:
+                # Display resume name as a clickable button
+                if st.button(resume.name, key=resume.name):
+                    # When clicked, show the PDF in the viewer
+                    st.session_state.selected_pdf = resume
 
+            with col2:
+                # Display download button
+                st.download_button(
+                    label="Download",
+                    data=resume,
+                    file_name=resume.name,
+                    mime="application/pdf"
+                )
+
+        # Show the PDF viewer for the selected resume if it's in the session state
+        if "selected_pdf" in st.session_state:
+            selected_pdf = st.session_state.selected_pdf
+            pdf_binary = selected_pdf.read()
+            with st.sidebar:
+                pdf_viewer(pdf_binary)
+    
 def side_bar(st):
     with st.sidebar:
         st.markdown(f"<h1 style='color: {color_palette['navy_blue']};'>Customize</h3>", unsafe_allow_html=True)
@@ -73,3 +98,4 @@ def side_bar(st):
                 format="%d",
             )
     return st.session_state.top_n_resumes
+

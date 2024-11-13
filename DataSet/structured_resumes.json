@@ -178,5 +178,11 @@
         "skills": "Illustrator, Basic HTML + CSS, Photoshop, Figma, InDesign, Sketch, Glyphs, Arduino, Motion, After Effects, Premiere Pro",
         "experience": "Junior Designer \u2014 AIGA, UW Chapter, Oct 2020-Present, Responsible for ideating and execution of AIGA event graphics and professional communication assets. Graphic Designer \u2014 The Whole U at UW, Sept 2020-Present, Design print and digital marketing imagery promoting holistic wellness for the University's health initiatives. Visual Design Intern \u2014 Drifter Organics, June 2020-Sept 2020, Designed product packaging, created online campaigns, and worked on Ul development for web/mobile.",
         "courses": "None mentioned"
+    },
+    "Hala Resume": {
+        "education": "Cairo University B.S. in Computer Engineering Sep 2018-Jul 2023, Distinction with Honors, GPA: 3.3",
+        "skills": "Python, C++, C, Java, Assembly, NumPy, Matplotlib, OpenCV, Pandas, Scikit-Learn, PyTorch, TensorFlow, NLTK, LangChain, Spark, OOP, Data Structures, Multi-threading, IPC, GitHub, Git, Linux, Node.js, Express, HTML, CSS, JavaScript, Bootstrap, React, PHP, Laravel, SQL, MySQL, MongoDB, ElasticSearch, RAG, HuggingFace",
+        "experience": "Data Scientist Sept 2023-Present, Dell Technologies Egypt | Hybrid, Backend Intern July 2022-Oct 2022, SalusLab Remote",
+        "courses": "Certificate of completion for Backend Internship"
     }
 }

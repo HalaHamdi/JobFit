@@ -8,9 +8,14 @@ def get_embedding_len(model_name):
     model = SentenceTransformer(model_name)
     return model,model.get_sentence_embedding_dimension()
 
-def get_vectordb_index(pc,index_name,embedding_length):
-    
+def get_vectordb_index(pc,index_name,embedding_length, force_create=False):
+    if force_create:
+        print("Deleting the existing index")
+        if pc.has_index(index_name):
+            pc.delete_index(index_name)
+            
     if not pc.has_index(index_name):
+        print("Creating a new index")
         pc.create_index(
             name=index_name,
             dimension=embedding_length,
@@ -30,6 +35,7 @@ def check_id_exists(index, id_to_check):
 
 def add_to_vector_db(index,data,model):
     vectors=[]
+    print("Encoding any New Resume")
     for group_name, dict_values in tqdm(data.items()):
         if check_id_exists(index, group_name):
             continue
@@ -40,6 +46,7 @@ def add_to_vector_db(index,data,model):
         vectors.append({"id": group_name, "values": resume_embedding})
     
     if len(vectors)>0:
+        print("Adding the new resumes to the vector database")
         index.upsert(vectors)
 
     return index
