@@ -19,6 +19,6 @@ st.markdown("<hr>", unsafe_allow_html=True)
 match_resumes(st,uploaded_files,job_description)
 display_matched_resumes(st)
 
-top_k_req=side_bar(st)
+side_bar(st)
 
     

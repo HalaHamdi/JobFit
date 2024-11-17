@@ -53,28 +53,33 @@ def ingestion_pipeline(uploaded_files):
         
     return data
 
-def match(job_description,uploaded_files):
+def match(job_description,uploaded_files,top_k,st):
     print("--------------------------------------------------")
-    # Any new resume needs pre-processing
-    # returns the data needed to be added to the vector database
-    data=ingestion_pipeline(uploaded_files)
-    model_name = 'multi-qa-MiniLM-L6-cos-v1'
-    model, embedding_length=get_embedding_len(model_name)
-    
-    load_dotenv()
-    pinecone_api_key=os.getenv("PINECONE_API_KEY")
-    
-    index_name = "job-fit-ai"
-    pc=Pinecone(api_key=pinecone_api_key)
-    
-    index=get_vectordb_index(pc, index_name,embedding_length, force_create=False)
-    index=add_to_vector_db(index,data,model)  # embed the resumes and add them to the pinecone database
-    
+    bar= st.empty()
+    with bar.status("In progress...",expanded=True) as status:
+        # Any new resume needs pre-processing
+        # returns the data needed to be added to the vector database
+        st.write("Processing resumes...")
+        data=ingestion_pipeline(uploaded_files)
+        model_name = 'multi-qa-MiniLM-L6-cos-v1'
+        model, embedding_length=get_embedding_len(model_name)
         
-    encoded_jd=model.encode(job_description)
-    response=index.query(vector=encoded_jd.tolist(), top_k=5)
-    
-    top_resumes_names = {match['id']+'.pdf': match['score'] for match in response['matches']}
+        st.write("Preparing the database...")
+        load_dotenv()
+        pinecone_api_key=os.getenv("PINECONE_API_KEY")
+        
+        index_name = "job-fit-ai"
+        pc=Pinecone(api_key=pinecone_api_key)
+        
+        index=get_vectordb_index(pc, index_name,embedding_length, force_create=False)
+        index=add_to_vector_db(index,data,model)  # embed the resumes and add them to the pinecone database
+        
+        st.write("Searching Best Resumes...")
+        encoded_jd=model.encode(job_description)
+        response=index.query(vector=encoded_jd.tolist(), top_k=top_k)
+        
+        top_resumes_names = {match['id']+'.pdf': match['score'] for match in response['matches']}
+    bar.empty()
     return [(resume, top_resumes_names[resume.name]) for resume in uploaded_files if resume.name in top_resumes_names]
     
     
