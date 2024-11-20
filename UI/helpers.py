@@ -80,7 +80,10 @@ def match(job_description,uploaded_files,top_k,st):
         
         top_resumes_names = {match['id']+'.pdf': match['score'] for match in response['matches']}
     bar.empty()
-    return [(resume, top_resumes_names[resume.name]) for resume in uploaded_files if resume.name in top_resumes_names]
+    result=[(resume, top_resumes_names[resume.name]) for resume in uploaded_files if resume.name in top_resumes_names]
+    return sorted(result, key=lambda x: x[1], reverse=True)
+  
+    
     
     
 

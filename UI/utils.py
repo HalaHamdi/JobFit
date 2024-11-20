@@ -46,7 +46,7 @@ def match_resumes(st,uploaded_files,job_description):
             st.session_state.matched_resumes = matched_resumes
         else:
             st.session_state.matched_resumes = []
-def display_matched_resumes(st):
+def display_matched_resumes(st,go_to_page):
     # Display matched resumes from session state
     if "matched_resumes" in st.session_state and st.session_state.matched_resumes:
       # Create a row for each matched resume
@@ -77,10 +77,9 @@ def display_matched_resumes(st):
         with col2:
             # resume_name, extension = os.path.splitext(resume.name)
             # Display resume name as a clickable button
-            if st.button(label=resume.name[:-4], key= f"btn_{resume.name}", icon=":material/picture_as_pdf:"):
-                # When clicked, show the PDF in the viewer
-                st.session_state.selected_pdf = resume
-
+            if st.button(label=resume.name[:-4], key= f"btn_{resume.name}", icon=":material/picture_as_pdf:",on_click=navigate_to_resume, args=(st,resume,go_to_page,)):
+               pass
+            
         with col3:
              # Format the score to two decimal places and add a "%" symbol
             formatted_score = f"{score*100:.1f}%"
@@ -113,13 +112,6 @@ def display_matched_resumes(st):
                 key=f"download_{resume.name}"
                 
             )
-
-    # Show the PDF viewer for the selected resume if it's in the session state
-    if "selected_pdf" in st.session_state:
-        selected_pdf = st.session_state.selected_pdf
-        pdf_binary = selected_pdf.read()
-        with st.sidebar:
-            pdf_viewer(pdf_binary,key=selected_pdf.name)
 def side_bar(st):
     with st.sidebar:
         st.markdown(f"<h1 style='color: {color_palette['navy_blue']};'>Customize</h3>", unsafe_allow_html=True)
@@ -146,3 +138,8 @@ def side_bar(st):
             if top_n_resumes != st.session_state.top_n_resumes:
                 st.session_state.top_n_resumes = top_n_resumes
 
+def navigate_to_resume(st, resume, go_to_page):
+    # When clicked, show the PDF in the viewer
+    st.session_state.selected_pdf = resume
+    go_to_page("resume")
+    
